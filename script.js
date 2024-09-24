@@ -1,6 +1,6 @@
 let average = []
 
-function average(list){
+function averageList(list){
     let temp = 0
     for(i=list.length; i>0; i++){
         temp += list[i]
