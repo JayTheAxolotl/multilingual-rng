@@ -16,5 +16,5 @@ function gen(){
     let temp = randomInt(100)
     document.getElementById("out").innerHTML = temp
     listOfNum.push(temp) 
-    document.getElementById("avg").innerHTML = temp
+    document.getElementById("avg").innerHTML = ["num",temp]
 }
