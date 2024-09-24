@@ -2,7 +2,7 @@ let listOfNum = []
 
 function averageList(list){
     let temp = 0
-    for(i=list.length; i>0; i++){
+    for(i=list.length; i>0; i--){
         temp += list[i]
     }
     return temp/list.length
