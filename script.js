@@ -5,7 +5,7 @@ function averageList(list){
     for(i=list.length; i>0; i++){
         temp += list[i]
     }
-    return(temp/list.length)
+    return temp/list.length
 }
 
 function randomInt(max){
