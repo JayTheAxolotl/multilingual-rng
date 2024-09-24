@@ -1,4 +1,4 @@
-let average = []
+let listOfNum = []
 
 function averageList(list){
     let temp = 0
@@ -15,6 +15,6 @@ function randomInt(max){
 function gen(){
     let temp = randomInt(100)
     document.getElementById("out").innerHTML = temp
-    average.push(temp) 
+    listOfNum.push(temp) 
 
 }
