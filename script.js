@@ -1,7 +1,12 @@
-function randomInt(){
-    return Math.floor(Math.random()*100)
+let average = []
+
+function randomInt(max){
+    return Math.floor(Math.random()*max)
 }
 
 function gen(){
-    document.getElementById("out").innerHTML = randomInt()
+    let temp = randomInt(100)
+    document.getElementById("out").innerHTML = temp
+    average.push(temp) 
+
 }
