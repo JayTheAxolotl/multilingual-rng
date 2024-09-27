@@ -8,12 +8,13 @@ function averageFromList(list){
     return temp/list.length
 }
 
-function randomInt(max){
-    return Math.floor(Math.random()*max)
+function randomBetweenInt(min, max){
+    tMax = (max+1) - min
+    return Math.floor(Math.random()*tMax) + min
 }
 
 function gen(){
-    let temp = randomInt(100)
+    let temp = randomBetweenInt(document.getElementById("min").value, document.getElementById("max").value)
     document.getElementById("out").innerHTML = temp
     listOfNum.push(temp) 
     document.getElementById("avg").innerHTML = ["avg", averageFromList(listOfNum)]
