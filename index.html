@@ -11,8 +11,17 @@
 <body>
   <main>
     <button onclick="gen()">Generate</button>
-    <p id="out">NULL</p>
-    <!-- <p id="avg">AVERAGE: NULL</p> -->
+    <p id="out"></p>
+    <p id="es"></p>
+    <div>
+      <label for="NumeralBox">Numeral:</label>
+      <input type="checkbox" value="Numeral" id="Numeral" name="NumeralBox" checked>
+    </div>
+
+    <div>
+      <label for="EspanolBox">Espanol:</label>
+      <input type="checkbox" value="Espanol" id="Espanol" name="EspanolBox" checked>
+    </div>
 
     <div>
       <input type="number" id="min" placeholder="min" value="0" min="0">
