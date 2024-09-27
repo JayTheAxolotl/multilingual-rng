@@ -14,8 +14,10 @@ function randomBetweenInt(min, max){
 }
 
 function gen(){
-    let temp = randomBetweenInt(document.getElementById("min").value, document.getElementById("max").value)
+    let temp = randomBetweenInt(Number(document.getElementById("min").value), Number(document.getElementById("max").value))
     document.getElementById("out").innerHTML = temp
     listOfNum.push(temp) 
     document.getElementById("avg").innerHTML = ["avg", averageFromList(listOfNum)]
 }
+
+gen()
