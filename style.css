@@ -4,12 +4,21 @@ html {
 }
 
 body {
-	background-color: black;
+	background-color: rgb(49, 49, 49);
 }
 
 p {
 	font-size: 40px;
 	color: white;
+}
+
+label {
+	font-size: 40px;
+	color: white;
+}
+
+input {
+	font-size: 40px;
 }
 
 button {
