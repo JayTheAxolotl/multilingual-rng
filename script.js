@@ -110,11 +110,11 @@ function randomBetweenInt(min, max){
 
 function gen(){
     let temp = randomBetweenInt(Number(document.getElementById("min").value), Number(document.getElementById("max").value))
-    if(document.getElementById("Numeral").checked == "true"){
+    if(document.getElementById("Numeral").checked == true){
     document.getElementById("out").innerHTML = temp
     }else{document.getElementById("out").innerHTML = "off";}
 
-    if(document.getElementById("Espanol").checked == "true"){
+    if(document.getElementById("Espanol").checked == true){
         document.getElementById("es").innerHTML = numberToSpanish[temp]
         }else{document.getElementById("es").innerHTML = "off";}
 }
